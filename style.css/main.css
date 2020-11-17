@@ -114,17 +114,18 @@ body {
 }
 
 .app-download {
+
     height: 3rem;
     width: 10rem;
     background-size: cover;
 }
 
 .app-download:nth-child(1) {
-    background-image: url('img-app-store');
+    background-image: url('/img/button-app-store.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('/img/button-google-play.png');
 }
 
 /* media queries */
